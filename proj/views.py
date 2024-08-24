@@ -5,11 +5,7 @@ from .models import ContactForm
 from django.conf import settings
 
 def resume_pdf(request):
-<<<<<<< HEAD
     pdf_path = os.path.join(settings.MEDIA_ROOT, 'resume-simar.pdf')
-=======
-    pdf_path = os.path.join(settings.MEDIA_ROOT, 'resume_simar.pdf')
->>>>>>> 1fd53bc81600c97dba14ba080ca23a590d233dfb
     return FileResponse(open(pdf_path, 'rb'), content_type='application/pdf')
 
 def index(request):
