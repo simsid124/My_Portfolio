@@ -1,0 +1,159 @@
+{% load static %}
+
+<div class="abouthero">
+    <h3>My Projects</h3>
+</div>
+<div class="warpfilter text-left">
+    <ul id="filterwrap" class="warpfilter__filter justify-content-left text-center text-lg-left">
+        <li data-group="all" class="active">All</li>
+        <li data-group="web_dev">Web Development</li>
+        <li data-group="app_dev">App Development</li>
+        <li data-group="java">Java(WEB/ANDROID)</li>
+        <li data-group="py_dj">Python</li>
+    </ul>
+</div>
+
+<div id="porfoliowarp" class="grid-gutter-md grid-col-3">
+    
+    <!-- votePORTFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["web_dev"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/votepage.jpg' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/votepage.jpg' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+    
+    <!-- savasPORTFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["web_dev"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/savas.jpg' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/savas.jpg' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+
+    <!-- sadaPORTFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["web_dev"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/bloodbank.jpg' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/bloodbank.jpg' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+
+    <!-- volumecalcPORTFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["app_dev"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/volumeCalc.jpg' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/volumeCalc.jpg' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+
+    <!-- quadraticPORTFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["app_dev"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/eqnSolver.jpg' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/eqnSolver.jpg' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+
+    <!-- contactsPORTFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["app_dev"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/contactApp.jpg' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/contactApp.jpg' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+
+    <!-- NotesAppPORTFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["app_dev"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/notesApp.jpg' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/notesApp.jpg' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+
+    <!-- j2eePORTFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["java"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/furnishop.jpg' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/furnishop.jpg' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+
+    <!-- laravelPORFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["web_dev"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/laravel_excel.png' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/laravel_excel.png' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+
+    <!-- py_csvPORFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["py_dj"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/py_csv.jpg' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/py_csv.jpg' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+
+    <!-- xyzPORFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["py_dj"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/xyz.png' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/xyz.png' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+
+    <!-- nlpPORFOLIO ITEM -->
+    <div class="porfoliowarp__item" data-groups='["py_dj"]'>
+        <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="{% static 'asset/portfolio/nlp_summarizer.png' %}">
+            <div class="porfoliowarp__content" style="background: url({% static 'asset/portfolio/nlp_summarizer.png' %}) 
+            no-repeat center;  background-position: center; background-size: cover;"></div>
+        </a>
+    </div>
+    <!-- END PORTFOLIO ITEM -->
+</div>
+
+<script>
+    // Wait for the document to load
+    document.addEventListener('DOMContentLoaded', function() {
+
+        // Initialize glightbox
+        const lightbox = GLightbox({
+            selector: '.glightbox'
+        });
+
+        const filterButtons = document.querySelectorAll('#filterwrap li');
+        const portfolioItems = document.querySelectorAll('.porfoliowarp__item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const group = button.getAttribute('data-group');
+
+                // Remove the 'active' class from all buttons and add it to the clicked button
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                // Show all items if 'all' is selected, otherwise filter items
+                portfolioItems.forEach(item => {
+                    const itemGroups = JSON.parse(item.getAttribute('data-groups'));
+                    if (group === 'all' || itemGroups.includes(group)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    });
+</script>

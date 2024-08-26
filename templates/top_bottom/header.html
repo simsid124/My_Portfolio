@@ -1,0 +1,34 @@
+{% load static %}
+
+<div class="row headerwrap">
+    <div class="col-xs-12 col-md-12 col-lg-2">
+
+        <!-- wrap logo -->
+        <div class="headerwrap__logo">
+            <img src="{% static 'asset/page/logosimar.png' %}" alt="logo" class="img-fluid" />
+        </div>
+        <!-- end wrap logo -->
+
+        <!-- navigation icon  -->
+        <div class="navicon d-block d-lg-none">
+            <div class="navicon__bar"></div>
+        </div>
+        <!-- end navigation icon  -->
+
+    </div>
+    <div class="col-lg-10 text-xl-left d-none d-lg-block justify-content-lg-left justify-content-xl-left">
+        
+        <!-- navigation desktop -->
+        <nav class="navpage text-left">
+            <ul class="navpage__wrap">
+                <li class="navpage__list"><a href="#sectionhero" class="activelink">Intro.</a></li>
+                <li class="navpage__list"><a href="#aboutsection">About Me.</a></li>
+                <li class="navpage__list"><a href="#skillsection">Skills.</a></li>
+                <li class="navpage__list"><a href="#portfoliosection">Portfolio.</a></li>
+                <li class="navpage__list"><a href="#contactsection">Contact.</a></li>
+            </ul>
+        </nav>
+        <!-- end navigation desktop -->
+
+    </div>
+</div>
