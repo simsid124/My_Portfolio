@@ -48,3 +48,28 @@
     padding: 0;
     border: 0;
 }
+
+.warpfilter__filter {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.warpfilter__filter li {
+    padding: 0.5rem 1rem;
+    background: #f0f0f0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.warpfilter__filter li:hover {
+    background: #ddd;
+}
+
+.warpfilter__filter li.active {
+    background: #333;
+    color: white;
+}

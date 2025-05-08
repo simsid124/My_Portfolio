@@ -1,8 +1,10 @@
 {% load static %}
 
-<div class="abouthero">
-    <h3>My Projects</h3>
-</div>
+<div class="portfoliosection">
+    <div class="skills-header">
+        <h2>My Projects</h2>
+        <p>Real-world solutions crafted with full-stack and mobile technologies</p>
+    </div>
 <div class="warpfilter text-left">
     <ul id="filterwrap" class="warpfilter__filter justify-content-left text-center text-lg-left">
         <li data-group="all" class="active">All</li>
@@ -125,7 +127,6 @@
 </div>
 
 <script>
-    // Wait for the document to load
     document.addEventListener('DOMContentLoaded', function() {
         // Initialize glightbox
         const lightbox = GLightbox({
@@ -135,21 +136,29 @@
         const filterButtons = document.querySelectorAll('#filterwrap li');
         const portfolioItems = document.querySelectorAll('.porfoliowarp__item');
     
+        console.log(`Found ${filterButtons.length} filter buttons`);
+        console.log(`Found ${portfolioItems.length} portfolio items`);
+    
         filterButtons.forEach(button => {
             button.addEventListener('click', () => {
                 const group = button.getAttribute('data-group');
+                console.log(`Filtering by group: ${group}`);
     
-                // Remove the 'active' class from all buttons and add it to the clicked button
+                // Update active button
                 filterButtons.forEach(btn => btn.classList.remove('active'));
                 button.classList.add('active');
     
-                // Show all items if 'all' is selected, otherwise filter items
+                // Filter items
                 portfolioItems.forEach(item => {
                     const itemGroups = JSON.parse(item.getAttribute('data-groups'));
+                    console.log(`Item groups: ${itemGroups}`);
+                    
                     if (group === 'all' || itemGroups.includes(group)) {
                         item.classList.remove('hidden');
+                        console.log(`Showing item with groups: ${itemGroups}`);
                     } else {
                         item.classList.add('hidden');
+                        console.log(`Hiding item with groups: ${itemGroups}`);
                     }
                 });
             });
