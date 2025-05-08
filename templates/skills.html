@@ -1,197 +1,255 @@
 {% load static %}
 
-<div class="inner">
-    <div class="abouthero text-center">
-        <h3>My Skills</h3>
+<div class="skills-container">
+    <div class="skills-header">
+        <h2>My Skills</h2>
+        <p>A diverse toolkit for full-stack development and beyond</p>
     </div>
     
-    <div class="container">
+    <!-- Skills Grid -->
+    <div class="skills-grid">
+        <!-- Web Development -->
+        <div class="skill-category">
+            <h3 class="category-title web-dev">
+                <i class="fas fa-globe"></i> Web Development
+            </h3>
+            <div class="category-skills">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/html.png' %}" alt="HTML5">
+                    </div>
+                    <div class="skill-content">
+                        <h4>HTML5</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%;"></div>
+                        </div>
+                        <p>Semantic, accessible markup expert</p>
+                    </div>
+                </div>
 
-        <!-- web: html, css, js -->
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/html.png' %}" alt="html" class="skill-icon" />
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/css.png' %}" alt="CSS">
+                    </div>
+                    <div class="skill-content">
+                        <h4>CSS3</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                        <p>Flexbox, Grid & responsive design</p>
+                    </div>
                 </div>
-                <h4>HTML5</h4>
-            </div>
-            <p>
-                Expert in creating semantic and accessible web content.
-            </p>
-        </div>
-        
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/css.png' %}" alt="css" class="skill-icon" />
-                </div>
-                <h4>CSS</h4>
-            </div>
-            <p>
-                Skilled in designing responsive web pages with Flexbox and Grid.
-            </p>
-        </div>
 
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/js.png' %}" alt="js" class="skill-icon" />
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/js.png' %}" alt="JavaScript">
+                    </div>
+                    <div class="skill-content">
+                        <h4>JavaScript</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 88%;"></div>
+                        </div>
+                        <p>Interactive web applications</p>
+                    </div>
                 </div>
-                <h4>Javascript</h4>
             </div>
-            <p>
-                Proficient in developing interactive web applications.
-            </p>
-        </div>
-
-        <!-- php, laravel -->
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/php.png' %}" alt="php" class="skill-icon" />
-                </div>
-                <h4>PHP</h4>
-            </div>
-            <p>
-                Experienced in dynamic web development with PHP.
-            </p>
         </div>
 
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/mysql.png' %}" alt="mysql" class="skill-icon" />
+        <!-- PHP Stack -->
+        <div class="skill-category">
+            <h3 class="category-title php-stack">
+                <i class="fas fa-server"></i> PHP Stack
+            </h3>
+            <div class="category-skills">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/php.png' %}" alt="PHP">
+                    </div>
+                    <div class="skill-content">
+                        <h4>PHP</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                        <p>Dynamic web development</p>
+                    </div>
                 </div>
-                <h4>MySQL</h4>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/laravel.png' %}" alt="Laravel">
+                    </div>
+                    <div class="skill-content">
+                        <h4>Laravel</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 82%;"></div>
+                        </div>
+                        <p>Robust application framework</p>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/mysql.png' %}" alt="MySQL">
+                    </div>
+                    <div class="skill-content">
+                        <h4>MySQL</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                        <p>Relational database management</p>
+                    </div>
+                </div>
             </div>
-            <p>
-                Adept at managing relational databases.
-            </p>
         </div>
 
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/laravel.png' %}" alt="laravel" class="skill-icon" />
+        <!-- Mobile Development -->
+        <div class="skill-category">
+            <h3 class="category-title mobile-dev">
+                <i class="fas fa-mobile-alt"></i> Mobile Development
+            </h3>
+            <div class="category-skills">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/kotlin.png' %}" alt="Kotlin">
+                    </div>
+                    <div class="skill-content">
+                        <h4>Kotlin</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 83%;"></div>
+                        </div>
+                        <p>Modern Android development</p>
+                    </div>
                 </div>
-                <h4>Laravel</h4>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/java.png' %}" alt="Java">
+                    </div>
+                    <div class="skill-content">
+                        <h4>Java</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                        <p>Enterprise & Android applications</p>
+                    </div>
+                </div>
             </div>
-            <p>
-                Skilled in building robust applications with Laravel.
-            </p>
         </div>
 
-        <!-- android: kotlin, java -->
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/kotlin.png' %}" alt="kotlin" class="skill-icon" />
+        <!-- Java Ecosystem -->
+        <div class="skill-category">
+            <h3 class="category-title java-eco">
+                <i class="fab fa-java"></i> Java Ecosystem
+            </h3>
+            <div class="category-skills">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/springboot.png' %}" alt="Spring Boot">
+                    </div>
+                    <div class="skill-content">
+                        <h4>Spring Boot</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                        <p>Scalable microservices</p>
+                    </div>
                 </div>
-                <h4>Kotlin</h4>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/hibernate.png' %}" alt="Hibernate">
+                    </div>
+                    <div class="skill-content">
+                        <h4>Hibernate</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 78%;"></div>
+                        </div>
+                        <p>Database interaction framework</p>
+                    </div>
+                </div>
             </div>
-            <p>
-                Proficient in Android development using Kotlin.
-            </p>
         </div>
 
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/java.png' %}" alt="java" class="skill-icon" />
+        <!-- Python Stack -->
+        <div class="skill-category">
+            <h3 class="category-title python-stack">
+                <i class="fab fa-python"></i> Python Stack
+            </h3>
+            <div class="category-skills">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/python.png' %}" alt="Python">
+                    </div>
+                    <div class="skill-content">
+                        <h4>Python</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 87%;"></div>
+                        </div>
+                        <p>Web development & scripting</p>
+                    </div>
                 </div>
-                <h4>Java</h4>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/django.png' %}" alt="Django">
+                    </div>
+                    <div class="skill-content">
+                        <h4>Django</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                        <p>Scalable web applications</p>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/flask.png' %}" alt="Flask">
+                    </div>
+                    <div class="skill-content">
+                        <h4>Flask</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                        <p>Rapid prototyping</p>
+                    </div>
+                </div>
             </div>
-            <p>
-                Experienced in building enterprise-level web applications 
-                and developing Android apps with Java.
-            </p>
         </div>
 
-        <!-- java web frameworks-->
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/springboot.png' %}" alt="springboot" class="skill-icon" />
+        <!-- Soft Skills -->
+        <div class="skill-category">
+            <h3 class="category-title soft-skills">
+                <i class="fas fa-users"></i> Professional Skills
+            </h3>
+            <div class="category-skills">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/comms.png' %}" alt="Communication">
+                    </div>
+                    <div class="skill-content">
+                        <h4>Communication</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                        <p>Clear technical explanations</p>
+                    </div>
                 </div>
-                <h4>Springboot</h4>
-            </div>
-            <p>
-                Skilled in creating scalable microservices with Spring Boot.
-            </p>
-        </div>
 
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/hibernate.png' %}" alt="hibernate" class="skill-icon" />
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="{% static 'asset/skills/public.png' %}" alt="Public Speaking">
+                    </div>
+                    <div class="skill-content">
+                        <h4>Public Speaking</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                        <p>Confident presentations</p>
+                    </div>
                 </div>
-                <h4>Hibernate</h4>
             </div>
-            <p>
-                Capable of handling database interactions using Hibernate.
-            </p>
         </div>
-
-        <!-- python -->
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/python.png' %}" alt="python" class="skill-icon" />
-                </div>
-                <h4>Python</h4>
-            </div>
-            <p>
-                Well-versed in Python for web development and programming.
-            </p>
-        </div>
-
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/django.png' %}" alt="django" class="skill-icon" />
-                </div>
-                <h4>Django</h4>
-            </div>
-            <p>
-                Adept at creating scalable web applications with Django and REST framework.
-            </p>
-        </div>
-
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/flask.png' %}" alt="flask" class="skill-icon" />
-                </div>
-                <h4>Flask</h4>
-            </div>
-            <p>
-                Competent in rapid prototyping with Flask.
-            </p>
-        </div>
-
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/comms.png' %}" alt="communication" class="skill-icon" />
-                </div>
-                <h4>Communication</h4>
-            </div>
-            <p>
-                Effective communicator with clear technical explanations.
-            </p>
-        </div>
-
-        <div class="skillbox">
-            <div class="skill-title">
-                <div class="img">
-                    <img src="{% static 'asset/skills/public.png' %}" alt="public-speaking" class="skill-icon" />
-                </div>
-                <h4>Public Speaking</h4>
-            </div>
-            <p>
-                Confident speaker with experience in presenting and leading.
-            </p>
-        </div>
-    
     </div>
+
 </div>
