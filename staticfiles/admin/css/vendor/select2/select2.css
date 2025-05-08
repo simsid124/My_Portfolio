@@ -1,7 +1,7 @@
 .select2-container {
   box-sizing: border-box;
   display: inline-block;
-  margin: 0;
+  margin: 10px;
   position: relative;
   vertical-align: middle; }
   .select2-container .select2-selection--single {
@@ -63,7 +63,7 @@
 
 .select2-results__options {
   list-style: none;
-  margin: 0;
+  margin: 10px;
   padding: 0; }
 
 .select2-results__option {
@@ -100,7 +100,7 @@
 
 .select2-close-mask {
   border: 0;
-  margin: 0;
+  margin: 10px;
   padding: 0;
   display: block;
   position: fixed;
@@ -183,7 +183,7 @@
   .select2-container--default .select2-selection--multiple .select2-selection__rendered {
     box-sizing: border-box;
     list-style: none;
-    margin: 0;
+    margin: 10px;
     padding: 0 5px;
     width: 100%; }
     .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
@@ -396,7 +396,7 @@
     border: 1px solid #5897fb; }
   .select2-container--classic .select2-selection--multiple .select2-selection__rendered {
     list-style: none;
-    margin: 0;
+    margin: 10px;
     padding: 0 5px; }
   .select2-container--classic .select2-selection--multiple .select2-selection__clear {
     display: none; }

@@ -91,7 +91,7 @@ html, body {
 }
 
 body {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     font-size: 0.875rem;
     font-family: var(--font-family-primary);
@@ -205,12 +205,12 @@ dd {
 }
 
 form {
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
 
 fieldset {
-    margin: 0;
+    margin: 10px;
     min-width: 0;
     padding: 0;
     border: none;
@@ -248,7 +248,7 @@ hr {
     background-color: var(--hairline-color);
     height: 1px;
     border: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     line-height: 1px;
 }
@@ -579,7 +579,7 @@ input[type=button][disabled].default {
 }
 
 .module h2, .module caption, .inline-group h2 {
-    margin: 0;
+    margin: 10px;
     padding: 8px;
     font-weight: 400;
     font-size: 0.8125rem;
@@ -603,7 +603,7 @@ input[type=button][disabled].default {
 
 ul.messagelist {
     padding: 0;
-    margin: 0;
+    margin: 10px;
 }
 
 ul.messagelist li {
@@ -666,16 +666,16 @@ ul.errorlist li a {
 }
 
 td ul.errorlist {
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
 
 td ul.errorlist li {
-    margin: 0;
+    margin: 10px;
 }
 
 .form-row.errors {
-    margin: 0;
+    margin: 10px;
     border: none;
     border-bottom: 1px solid var(--hairline-color);
     background: none;
@@ -934,7 +934,7 @@ a.deletelink:focus, a.deletelink:hover {
 
 #site-name {
     padding: 0;
-    margin: 0;
+    margin: 10px;
     margin-inline-end: 20px;
     font-weight: 300;
     font-size: 1.5rem;
@@ -1095,7 +1095,7 @@ a.deletelink:focus, a.deletelink:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 22px;
-    margin: 0;
+    margin: 10px;
     border-top: 1px solid var(--hairline-color);
     width: 100%;
 }

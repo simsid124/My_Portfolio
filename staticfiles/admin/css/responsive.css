@@ -49,7 +49,7 @@ input[type="submit"], button {
     }
 
     #user-tools {
-        margin: 0;
+        margin: 10px;
         font-weight: 400;
         line-height: 1.85;
         text-align: left;
@@ -184,7 +184,7 @@ input[type="submit"], button {
     .form-row select,
     .form-row .vTextField {
         box-sizing: border-box;
-        margin: 0;
+        margin: 10px;
         padding: 6px 8px;
         min-height: 2.25rem;
         font-size: 0.875rem;
@@ -415,7 +415,7 @@ input[type="submit"], button {
     }
 
     .login #site-name {
-        margin: 0;
+        margin: 10px;
     }
 
     /* GIS */
@@ -461,12 +461,12 @@ input[type="submit"], button {
     /* Dashboard */
 
     .colMS, .colSM {
-        margin: 0;
+        margin: 10px;
     }
 
     #content-related, .colSM #content-related {
         width: 100%;
-        margin: 0;
+        margin: 10px;
     }
 
     #content-related .module {
@@ -587,7 +587,7 @@ input[type="submit"], button {
 
     .aligned .checkbox-row input {
         flex: 0 1 auto;
-        margin: 0;
+        margin: 10px;
     }
 
     .aligned .vCheckboxLabel {
@@ -799,7 +799,7 @@ input[type="submit"], button {
     }
 
     .submit-row a.deletelink {
-        margin: 0;
+        margin: 10px;
     }
 
     /* Messages */
@@ -866,7 +866,7 @@ input[type="submit"], button {
     }
 
     .login .submit-row input {
-        margin: 0;
+        margin: 10px;
         text-transform: uppercase;
     }
 
@@ -883,7 +883,7 @@ input[type="submit"], button {
         top: 50% !important;
         left: 50% !important;
         transform: translate(-50%, -50%);
-        margin: 0;
+        margin: 10px;
         border: none;
         overflow: visible;
     }

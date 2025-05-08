@@ -1,25 +1,25 @@
 {% load static %}
 
 <div class="row headerwrap">
-    <div class="col-xs-12 col-md-12 col-lg-2">
-
+    <div class="col-xs-12 col-md-12 col-lg-3">
         <!-- wrap logo -->
         <div class="headerwrap__logo">
-            <img src="{% static 'asset/page/logosimar.png' %}" alt="logo" class="img-fluid" />
+            <a href="#">
+                <img src="{% static 'asset/page/logosimar.png' %}" alt="logo" class="img-fluid" />
+            </a>
         </div>
         <!-- end wrap logo -->
 
-        <!-- navigation icon  -->
+        <!-- navigation icon -->
         <div class="navicon d-block d-lg-none">
             <div class="navicon__bar"></div>
         </div>
-        <!-- end navigation icon  -->
-
+        <!-- end navigation icon -->
     </div>
-    <div class="col-lg-10 text-xl-left d-none d-lg-block justify-content-lg-left justify-content-xl-left">
-        
+    
+    <div class="col-lg-9 d-none d-lg-flex">
         <!-- navigation desktop -->
-        <nav class="navpage text-left">
+        <nav class="navpage">
             <ul class="navpage__wrap">
                 <li class="navpage__list"><a href="#sectionhero" class="activelink">Intro.</a></li>
                 <li class="navpage__list"><a href="#aboutsection">About Me.</a></li>
@@ -29,6 +29,5 @@
             </ul>
         </nav>
         <!-- end navigation desktop -->
-
     </div>
 </div>

@@ -33,7 +33,7 @@
     * {
         -webkit-font-smoothing: antialiased;
         padding:0;
-        margin: 0;
+        margin: 5;
         box-sizing: border-box;
     }
     
@@ -45,7 +45,7 @@
         background: #6c757d;
         color: #181715;
         text-rendering: optimizeLegibility;
-        margin: 0;
+        margin: 5;
         max-width: 100%;
         padding: 0;
     }
@@ -117,7 +117,7 @@
         height: 2px;
         background: #6c757d;
         border-radius: 3px;
-        margin: 0;
+        margin: 10px;
         padding: 3px;
         cursor: pointer;
     }
@@ -163,16 +163,27 @@
 */
     
     #headermain {
-        padding: 10px 0 10px;
+        padding: 10px 0;
         position: fixed;
         width: 100%;
         z-index: 3;
+        background-color: #6c757d;
+    }
+    
+    .headerwrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    .headerwrap__logo{
+    .headerwrap__logo {
         position: relative;
-        top: 0;
-        left: 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .headerwrap__logo img {
+        max-height: 40px;
     }
 
     /*
@@ -180,16 +191,25 @@
 * 02.HEADER SECTION. - navigation
 * ----------------------------------------------------------------------------------------
 */
+
+    .navpage {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
     
     .navpage__wrap {
-        padding: 10px 0 0;
+        padding: 0;
         margin: 0;
+        display: flex;
+        align-items: center;
+        height: 100%;
     }
     
     .navpage__wrap li {
         list-style: none;
         display: inline-block;
-        margin: 0;
+        margin: 0 5px;
     }
     
     .navpage__wrap li a {
@@ -198,8 +218,9 @@
         position: relative;
         color: #181715;
         z-index: 1;
-        padding: 5px 15px;
+        padding: 8px 15px;
         border-radius: 50px;
+        display: inline-block;
     }
     
     .navpage__wrap li a:hover {
@@ -291,7 +312,7 @@
     
     .overlay__listnav li {
         list-style: none;
-        margin: 0;
+        margin: 10px;
     }
     
     .overlay__listnav li a {
@@ -320,7 +341,7 @@
 */
     
     #sectionhero {
-        padding: 0;
+        padding-top: 70px;
     }
     
     .infohero__p {
@@ -402,7 +423,7 @@
     .separator {
         width: 100%;
         background-color: #6c757d;
-        margin: 0;
+        margin: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -420,7 +441,7 @@
 
     .separator .counterwrap__counternum {
         font-size: 2rem;
-        margin: 0;
+        margin: 10px;
         color: #fff;
     }
 

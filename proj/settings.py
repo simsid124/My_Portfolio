@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = Path(BASE_DIR, 'templates')
 
 #CSRF
-CSRF_TRUSTED_ORIGINS= ["https://web-production-c81a.up.railway.app"]
+CSRF_TRUSTED_ORIGINS= ["https://web-production-c81a.up.railway.app", "https://simarsidhu-portfolio.up.railway.app/"]
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/

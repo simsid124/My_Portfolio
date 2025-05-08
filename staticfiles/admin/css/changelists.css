@@ -93,7 +93,7 @@
     height: 1.1875rem;
     border: 1px solid var(--border-color);
     padding: 2px 5px;
-    margin: 0;
+    margin: 10px;
     vertical-align: top;
     font-size: 0.8125rem;
     max-width: 100%;
@@ -107,7 +107,7 @@
     border: 1px solid var(--border-color);
     font-size: 0.8125rem;
     padding: 4px 8px;
-    margin: 0;
+    margin: 10px;
     vertical-align: middle;
     background: var(--body-bg);
     box-shadow: 0 -15px 20px -10px rgba(0, 0, 0, 0.15) inset;
@@ -252,7 +252,7 @@
 }
 
 #changelist table input {
-    margin: 0;
+    margin: 10px;
     vertical-align: baseline;
 }
 
@@ -305,7 +305,7 @@
     border-radius: 4px;
     font-size: 0.875rem;
     padding: 0 0 0 4px;
-    margin: 0;
+    margin: 10px;
     margin-left: 10px;
 }
 
@@ -329,7 +329,7 @@
     height: 1.5rem;
     line-height: 1;
     padding: 4px 8px;
-    margin: 0;
+    margin: 10px;
     color: var(--body-fg);
 }
 
