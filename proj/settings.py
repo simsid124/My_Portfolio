@@ -13,12 +13,12 @@ CSRF_TRUSTED_ORIGINS= ["https://web-production-c81a.up.railway.app"]
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config("SECRET_KEY")
+SECRET_KEY = 'django-insecure-81brn((4dar*bn2l!35uf#07#al5opcttb9wkoq-+8pr$znq=b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config("DEBUG", cast=bool)
+DEBUG = True
 
-ALLOWED_HOSTS = config("ALLOWED_HOSTS", cast=list)
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -125,17 +125,16 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Email settings
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-
-EMAIL_HOST = config('EMAIL_HOST', 'smtp.gmail.com')
-
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+CONTACT_FORM_EMAIL = 'simarsidhu0102@gmail.com'
+EMAIL_HOST = 'smtp.gmail.com'
 
-DEFAULT_FROM_EMAIL = config('DEFAULT_FROM_EMAIL')
-CONTACT_FORM_EMAIL = config('CONTACT_FORM_EMAIL')
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+
+DEFAULT_FROM_EMAIL = 'simarsidhu0102@gmail.com'
 
 
 
